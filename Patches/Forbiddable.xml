@@ -1,0 +1,11 @@
+<Patch>
+
+  <!-- everything that can be fueled -->
+  <Operation Class="PatchOperationInsert">
+  <xpath>*/ThingDef/comps/li[@Class="CompProperties_Refuelable"]</xpath>
+  <value>
+    <li Class="CompProperties_Forbiddable"/>
+  </value>
+  </Operation>
+
+</Patch>
